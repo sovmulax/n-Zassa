@@ -1,0 +1,609 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+#chart-container {
+  width: 800px;
+  height: auto;
+}
+
+.body {
+  background-color: #f2f7fb;
+}
+
+.my-container {
+  margin: 1rem;
+  background-color: #f2f7fb;
+}
+
+.my-logo {
+  height: 125px;
+  width: 550px;
+}
+.my-logo-id {
+  height: 100px;
+  width: 500px;
+  margin: 0.5rem;
+}
+
+.my-nav-id-02 {
+  height: 3.5rem;
+}
+
+.m1 {
+  margin: 0.5rem;
+}
+
+.m1:hover {
+  margin: 0.5rem;
+  background-color: rgba(0, 128, 128, 0.486);
+}
+
+.my-foot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.my-foot-v {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.my-foot p {
+  display: flex;
+  justify-content: center;
+}
+
+.my-foot-v p {
+  display: flex;
+  justify-content: center;
+}
+
+.my-nav {
+  height: 100px;
+}
+
+.my-nav-id {
+  height: 85px;
+}
+
+.main {
+  height: 30rem;
+  width: 100%;
+  margin-top: 2.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.my-section01 {
+  height: 100%;
+  width: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 5px solid teal;
+}
+
+.my-section02 {
+  height: 100%;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.my-title {
+  font-size: 3em;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+.my-main {
+  height: 100%;
+  width: 80rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+  background-color: #f2f7fb;
+}
+
+.my-menu {
+  position: fixed;
+  right: 0;
+  top: 13rem;
+  border-radius: 10px 0 0 10px;
+  height: 30rem;
+  width: 17rem;
+  text-align: center;
+  border: 3px solid teal;
+  border-right: transparent;
+}
+
+.my-liste a {
+  text-decoration: underline;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+.my-liste {
+  text-decoration: underline;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+.my-table {
+  width: 100%;
+}
+
+table tr td {
+  background-color: #f2f7fb;
+}
+
+.my-par {
+  color: rgb(71, 71, 71);
+  font-weight: 300;
+  font-style: italic;
+}
+
+.my-par a {
+  color: rgb(71, 71, 71);
+  font-weight: 300;
+  font-style: oblique;
+}
+
+/*---Carte des étudiant---*/
+
+.my-card {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 15rem;
+  margin: 0.5rem;
+  text-align: center;
+  border-radius: 6px;
+  border: 2px solid transparent;
+}
+
+.my-card-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.my-card:hover {
+  transition: 0.3s;
+  background-color: teal;
+  color: white;
+}
+
+.my-card-picture {
+  border-radius: 100%;
+  height: 9.5rem;
+  width: 9.5rem;
+}
+
+.my-card-title {
+  width: 60%;
+  display: block;
+  overflow: auto;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.my-text {
+  font-style: italic;
+}
+
+.my-text a {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.my-second-card {
+  width: 20rem !important;
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+  background-color: white !important;
+  border-radius: 0px 50px 0px 0px !important;
+}
+
+.my-second-card:hover {
+  background-color: #26a69a !important;
+  color: white;
+  transform: 0.2s !important;
+}
+
+.my-second-card00 {
+  width: 40rem !important;
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+  background-color: white !important;
+}
+
+.my-second-card00:hover {
+  background-color: #26a69a !important;
+  color: white;
+  transform: 0.2s !important;
+}
+
+.my-second-card00 {
+  display: none;
+}
+/*-----------------------------------------*/
+
+.my-title01 {
+  font-size: 2em;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  display: block;
+}
+
+.my-center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.my-retour {
+  font-size: 0.7em;
+  margin-left: 2rem;
+}
+
+.my-resume {
+  text-decoration: solid;
+}
+
+.my-detail-book {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-detail-book {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.my-profile-pic {
+  width: 30%;
+  height: 30rem;
+}
+
+.my-info {
+  width: 40%;
+  margin-top: 8%;
+}
+
+.my-info .my-title01 {
+  width: 100%;
+  text-align: start;
+  padding-left: 2rem;
+}
+
+.my-buttons {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.my-buttons00 {
+  display: none;
+}
+
+.my-button {
+  text-align: center;
+  display: block;
+  width: 10rem;
+}
+
+/*---------------------------------------------------------Tableau----------------------------------------------------------------*/
+table,
+td,
+th,
+tr {
+  width: 60rem;
+  height: 3.5rem;
+  border-collapse: collapse;
+  text-align: center !important;
+}
+
+th {
+  border: 1px solid white;
+  background-color: teal;
+  color: white;
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: center !important;
+}
+
+td,
+tr {
+  text-align: center !important;
+  background-color: #f2f7fb;
+  border: 1px solid white;
+}
+
+.my-table {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+.xyz {
+  font-weight: 300;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.xy {
+  font-weight: 600;
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+.my-emprunt {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.my-second {
+  display: none;
+}
+
+.my-center {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.my-float {
+  display: block;
+}
+
+.be-label {
+  display: none;
+}
+/*--------------------------------------------------------search----------------------------------------------------------------------*/
+
+.search-div{
+  width: 100%;
+  margin: 1rem;
+  padding: 1.5rem;
+  font-size: 2em;
+  font-weight: 600;
+  text-align: start;
+  background-color: white;
+}
+
+/*--------------------------------------------------------Média Query-------------------------------------------------------------*/
+@media (max-width: 1500px) {
+  .my-main {
+    width: 73rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .my-main {
+    width: 68rem;
+  }
+}
+
+@media (max-width: 1320px) {
+  .my-main {
+    width: 63rem;
+  }
+}
+
+@media (max-width: 1245px) {
+  .my-main {
+    width: 57rem;
+  }
+}
+
+@media (max-width: 1120px) {
+  .my-main {
+    width: 96%;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .my-menu {
+    display: none;
+  }
+
+  /*--------------------------------------------------------menu flottant---------------------------------------------------------------*/
+
+  .b-contain {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 9999;
+    cursor: pointer;
+  }
+
+  .b-icon-hold {
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    background-color: teal;
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .b-icon-hold:hover {
+    opacity: 0.8;
+  }
+
+  .b-icon-hold i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    font-style: 12px;
+    color: white;
+  }
+
+  .be {
+    visibility: hidden;
+  }
+
+  .be-options {
+    list-style-type: none;
+    margin: 0;
+
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+
+    opacity: 0;
+
+    transition: all 0.4s ease;
+    transform: scale(0);
+    transform-origin: 85% bottom;
+  }
+
+  .be .be-options,
+  .be-options {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .be-options li {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+  }
+
+  .be-label {
+    display: list-item;
+    padding: 2px 5px;
+    align-self: center;
+    user-select: none;
+    white-space: nowrap;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: 666666;
+    color: #000000;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.404);
+    margin-right: 10px;
+    z-index: 9999;
+  }
+
+  /*---------------------------------------------------------------------------------------------------------------------------------*/
+}
+
+@media (max-width: 993px) {
+  .my {
+    display: none;
+  }
+
+  .my-logo-id {
+    height: 100px;
+    width: 220px;
+  }
+}
+
+@media (max-width: 800px) {
+  .my-section01 {
+    display: none;
+  }
+
+  .my-section02 {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .my-profile-pic {
+    width: 30%;
+  }
+
+  .my-buttons {
+    display: none;
+  }
+
+  .my-buttons00 {
+    width: 70%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .my-info {
+    width: 100%;
+  }
+
+  .my-info .my-title01 {
+    width: 100%;
+    text-align: start;
+    padding-left: 2rem;
+  }
+
+  .my-table {
+    display: none;
+  }
+
+  .my-second {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .yz {
+    display: none;
+  }
+
+  .my-second-card00 {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .my-logo {
+    height: 130px;
+    width: 220px;
+  }
+}

@@ -1,0 +1,21 @@
+couleur => {
+    #76ff03 light-green accent-3 =>(vert claire)
+    #eeff41 lime accent-2 =>(jaune vert)
+}
+
+google font {
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style> 
+
+    font-family: 'Noto Sans', sans-serif;
+}
+
+google font titre {
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+    </style> 
+
+    font-family: 'Oswald', sans-serif;
+}
+
